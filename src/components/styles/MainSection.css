@@ -1,0 +1,47 @@
+.password-strength {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  min-width: 50vw;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #2a2a2a;
+}
+
+.password-strength h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "PT Sans", sans-serif;
+  color: #c0c0c0;
+}
+
+.password-strength h1:hover {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 760px) {
+  .password-input {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+
+  .password-strength h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-family: "PT Sans", sans-serif;
+    color: #c0c0c0;
+  }
+}

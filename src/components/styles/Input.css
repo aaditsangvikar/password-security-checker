@@ -1,0 +1,19 @@
+.input {
+  background-color: transparent;
+  color: #c0c0c0;
+  border: 2px solid #c0c0c0;
+  transition: all 0.3s ease-out;
+  padding: 30px 20px;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 10px;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px) {
+  .input {
+    width: 300px;
+    font-size: 15px;
+  }
+}

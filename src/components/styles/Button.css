@@ -1,0 +1,28 @@
+:root {
+  --primary: #fff;
+}
+.btn {
+  background-color: transparent;
+  color: #c0c0c0;
+  border: 2px solid #c0c0c0;
+  transition: all 0.3s ease-out;
+  padding: 30px 100px;
+  font-size: 20px;
+  border-radius: 7px;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+}
+.btn:hover {
+  background: #242424;
+  color: #bdbdbd;
+  transition: all 0.3s ease-out;
+  border: 2px solid #ffffff;
+}
+
+@media screen and (max-width: 760px) {
+  .btn {
+    padding: 20px 50px;
+    font-size: 15px;
+    width: 300px;
+  }
+}

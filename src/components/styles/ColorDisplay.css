@@ -1,0 +1,25 @@
+.colorDisplay {
+  min-height: 50px;
+  min-width: 842px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.colorDisplay:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 760px) {
+  .colorDisplay {
+    min-width: 300px;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+}
