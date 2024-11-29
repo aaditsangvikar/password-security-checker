@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/password-security-checker/static/css/main.ec9ebf1c.css",
+    "main.js": "/password-security-checker/static/js/main.75ff6c22.js",
+    "index.html": "/password-security-checker/index.html",
+    "main.ec9ebf1c.css.map": "/password-security-checker/static/css/main.ec9ebf1c.css.map",
+    "main.75ff6c22.js.map": "/password-security-checker/static/js/main.75ff6c22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec9ebf1c.css",
+    "static/js/main.75ff6c22.js"
+  ]
+}
